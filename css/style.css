@@ -1,0 +1,131 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'),
+         url('../fonts/poppins-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Poppins Medium'), local('Poppins-Medium'),
+         url('../fonts/poppins-v13-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v13-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* libre-baskerville-regular - latin */
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Libre Baskerville'), local('LibreBaskerville-Regular'),
+         url('../fonts/libre-baskerville-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/libre-baskerville-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* libre-baskerville-700 - latin */
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Libre Baskerville Bold'), local('LibreBaskerville-Bold'),
+         url('../fonts/libre-baskerville-v9-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/libre-baskerville-v9-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  .text-secondary {
+      color: #313131 !important;
+  }
+
+  .font-libre {
+      font-family: 'Libre', verdana;
+  }
+
+  .text-danger {
+      color: #fc5f45 !important;
+  }
+
+  .btn-danger {
+    background-color: #fc5f45 !important;
+  }
+
+  .text-lightgreen {
+    color: #38C695 !important;
+  }
+
+  .text-mania {
+    color: #B27CF5 !important;
+  }
+
+  .text-colorMania {
+    color: #FEB960 !important;
+  }
+
+  .text-color {
+    color: #979797 !important ;
+  }
+
+  .light-grey {
+    color: #F7F7F7 !important;
+  }
+
+  .title-color {
+    color: #616161;
+  }
+
+  .bi::before {
+    display: inline-block;
+    content: "";
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  html, body {
+      font-size: 14px;
+      font-family: 'Poppins', verdana;
+      font-weight: normal;
+  }
+
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  .navbar .nav-link {
+      font-weight: 600;
+  }
+
+  .navbar-nav {
+    margin-left: 500px;
+  }
+
+  .navbar-toggler {
+    margin-left: 500px;
+  }
+
+  #header {
+    position: absolute;
+    z-index: 10;
+  }
+
+  .main {
+    position: relative;
+    background-image: url(../image/soxil.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .t1 {
+    font-size: 3.5rem;
+  }
+
+  .t2{
+    font-size: 1.5rem;
+  }
+
+ 
